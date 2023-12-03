@@ -1,0 +1,136 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Make sure the body covers the entire viewport height */
+    background: linear-gradient(to right, rgb(255, 255, 255)75%,rgb(37, 93, 37)25%); /* Use a linear gradient to create the split effect */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Use a default font */
+    color: rgb(0, 0, 0); /* Set the text color to white for better visibility */
+}
+.logo {
+    width: 3000;
+    cursor: pointer;
+}
+.PersonalInfo{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+    
+}
+.PersonalInfo h1{
+   font-size: 50px;
+   margin-top: -350px;
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.PersonalInfo p{
+   margin: auto ;
+   font-weight: 100;
+   line-height: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.TechnicalExperience{
+    width: 100%;
+    position:absolute;
+    top: 78%;
+    transform: translateY(-50%);
+    text-align:left;
+    color: black;
+    
+}
+.TechnicalExperience h1{
+    font-size: 30px;
+    margin-top: 7%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.TechnicalExperience p{
+    margin: auto ;
+   font-weight: 100;
+   line-height: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.education{
+    width: 97%;
+    position:absolute;
+    top: 33%;
+    transform: translateY(-50%);
+    text-align:right;
+    color: rgb(255, 255, 255);
+    
+}
+.education h1{
+    font-size: 30px;
+   margin-top: 7%;
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.education p{
+    margin: auto ;
+   font-weight: 100;
+   line-height: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.experience{
+    width: 97%;
+    position:absolute;
+    top: 44%;
+    transform: translateY(-50%);
+    text-align:right;
+    color: rgb(255, 255, 255);
+    
+}
+.experience h1{
+    font-size: 30px;
+   margin-top: 7%;
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.experience p{
+    margin: auto ;
+   font-weight: 100;
+   line-height: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.Skills{
+    width: 97%;
+    position:absolute;
+    top: 67%;
+    transform: translateY(-50%);
+    text-align:right;
+    color: rgb(255, 255, 255);
+    
+}
+.Skills h1{
+    font-size: 30px;
+   margin-top: 7%;
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Skills p{
+    margin: auto ;
+   font-weight: 100;
+   line-height: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.Languages{
+    width: 97%;
+    position:absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    text-align:right;
+    color: rgb(255, 255, 255);
+    
+}
+.Languages h1{
+    font-size: 30px;
+   margin-top: 7%;
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Languages p{
+    margin: auto ;
+   font-weight: 100;
+   line-height: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

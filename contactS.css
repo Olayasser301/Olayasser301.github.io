@@ -1,0 +1,66 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Make sure the body covers the entire viewport height */
+    background: linear-gradient(to right, rgb(255, 255, 255)75%,rgb(37, 93, 37)25%); /* Use a linear gradient to create the split effect */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Use a default font */
+    color: rgb(0, 0, 0); /* Set the text color to white for better visibility */
+}
+.logo {
+    width: 3000;
+    cursor: pointer;
+}
+.contact{
+width: 100%;
+position: absolute;
+top: 65%;
+transform: translateY(-50%);
+text-align: center;
+color: black;
+
+}
+.contact h1{
+font-size: 70px;
+margin-top: -350px;
+color: rgb(37, 93, 37);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact p{
+margin: auto ;
+font-size: larger;
+font-weight: 100;
+line-height: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.oops{
+width: 3000;
+cursor: pointer;
+margin-top: 0%;    
+margin-left: 42%;
+}
+.intro1{
+    width: 97%;
+    position:absolute;
+    top: 63%;
+    transform: translateY(-50%);
+    text-align:right;
+    color: rgb(255, 255, 255);
+    
+}
+.intro1 h1{
+    font-size: 35px;
+   margin-top: 7%;
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro1 p{
+    margin: auto ;
+    margin-left: 85%;
+   font-weight: 100;
+   line-height: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.arrow{
+margin-left: 47%;
+}
